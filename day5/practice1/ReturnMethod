@@ -1,0 +1,34 @@
+package onlineYellow;
+
+public class ReturnMethod {
+     
+   public static void main(String[] args) {
+	   
+	   OneClass oneClass = new OneClass();
+	   
+	   TwoClass twoClass = new TwoClass();
+	   
+	   oneClass = three(oneClass, twoClass.hanq());
+	   
+	   System.out.println(oneClass.zeroStr);
+	   
+	   OneClass oneClassCopy = new OneClass();
+	   
+	   System.out.println(oneClassCopy.zeroStr);
+	   
+	   oneClassCopy = oneClass;
+	   
+	   System.out.println(oneClassCopy.zeroStr);
+     }
+   
+
+   private static OneClass three(OneClass oneClass, String hanq) {
+	  
+	   String four = oneClass.hanq() + hanq;
+	   
+	   oneClass.zeroStr = four;
+	   
+	   return oneClass;
+	   
+   }
+}
