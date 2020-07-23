@@ -1,0 +1,17 @@
+package iforMoon;
+
+public class TestIf {
+
+	public static void main(String[] args) {
+		int a = 11;
+		
+		if (a != 11) {
+			System.out.println("if");
+		} else if (a <= 12) {
+			System.out.println("else if");
+		} else {
+			System.out.println("else");
+		}
+	}
+
+}
