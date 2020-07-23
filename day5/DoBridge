@@ -1,0 +1,6 @@
+package onlineYellow;
+
+public class DoBridge {
+
+	public static DoPrint doPrint = new DoPrint();//필드에 객체넣은것
+}
