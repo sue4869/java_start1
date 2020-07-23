@@ -6,6 +6,5 @@ public class ReturnMethod {
 	   
 	   DoBridge.doPrint.consoleOut("찍혀라");
 	   System.out.println("찍혀라");
-
      }
    }
