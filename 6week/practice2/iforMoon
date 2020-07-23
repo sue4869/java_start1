@@ -1,0 +1,13 @@
+package iforMoon;
+
+public class TestIf {
+
+	public static void main(String[] args) {
+		int a = 10; //지역변수
+		
+		if (a < 11) {
+			System.out.println("실행");
+		}
+	}
+
+}
