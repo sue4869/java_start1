@@ -1,0 +1,28 @@
+package onlineYellow;
+
+public class ReturnMethod {
+     
+   public static void main(String[] args) {
+	   
+	  OtherClass otherClass = new OtherClass(); //위치 옮겨줌
+      
+      int derHaGiCall    = OtherClass.derHaGi(1,2),
+          bbeGiCall    = OtherClass.bbeGi(2,1);
+
+      ReturnMethod returnMethod = new ReturnMethod();
+      
+      String maMuRiCall = returnMethod.maMuRi();
+      
+     
+      
+      System.out.println(derHaGiCall + bbeGiCall + 
+                  otherClass.startStr() );
+   }
+
+
+   
+   public String maMuRi() { 
+      return "입니다";
+   }
+
+}
