@@ -1,0 +1,24 @@
+package onlineYellow;
+
+public class SihermOne {
+	
+		public static String AhYes		 = "훗";
+		public static String ResultSum	 = "";
+		
+	public static void main(String[] args) {
+		
+		dehagi(AhYes, 5);
+		
+		System.out.println(AhYes + ResultSum);
+		}
+
+	private static void dehagi(String uaakStr, int suaakk) {
+		
+		String iGeMO = uaakStr;
+		int aiGo	 = suaakk;
+		
+		ResultSum = iGeMO + aiGo;
+	
+	}
+
+}
