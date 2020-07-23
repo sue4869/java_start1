@@ -1,0 +1,27 @@
+
+package onlineYellow;
+
+public class OtherClass {
+   
+   static int k = 0;
+   
+   OtherClass() {
+      k = 1;
+   }
+
+   public static int derHaGi(int i, int j) {
+      return i + j + k; // k를 더해줌
+   }
+   
+   public static int bbeGi(int i, int j) {
+      return i - j + k; // k를 더해줌
+      
+   }
+   public String startStr() {
+      return "시작해볼까요";
+   }
+   
+   
+
+   
+}
