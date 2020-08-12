@@ -1,0 +1,24 @@
+package iforMoon;
+
+public class OneMoreTime {
+
+	public static void main(String[] args) {
+		
+		OneMoreTime oneMoreTime = new OneMoreTime();
+		
+		oneMoreTime.guguDan(3, 4);
+		
+
+	}
+	
+	public void guguDan(int i, int j) {
+		
+		int a = j;
+		
+		for (j = 1; j < a+1; j++) {
+			System.out.println(i + "X" + j + "=" + i*j);
+			
+		}
+	}
+
+}
