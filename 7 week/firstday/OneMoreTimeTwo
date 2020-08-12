@@ -1,0 +1,36 @@
+package iforMoon;
+
+public class OneMoreTime {
+
+	public static void main(String[] args) {
+		
+		OneMoreTime oneMoreTime = new OneMoreTime();
+		
+		oneMoreTime.guguDan(0, 4);
+		
+
+	}
+	
+	public void guguDan(int i, int j) {
+		int a = j,
+			b = i; //i를 보관할 곳이 필요하다.
+		
+		
+		if (i == 0) {
+			i = 2;
+			b = 9;
+			a = 9;
+			
+		} 
+		
+		for (; i < b + 1; i++) { // 위에서 초기화를 했기 때문에 초기화자 필요없음
+		
+		for (j = 1; j < a+1; j++) {
+			System.out.println(i + "X" + j + "=" + i*j);
+			
+		}
+	}
+		
+	}
+
+}
