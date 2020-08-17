@@ -2,9 +2,9 @@ package onlineYellow;
 
 public class JavaFinal {
 
-	public static String A 	= "A";
-	protected static String B 		= "b";
-	protected String c				= "c";
+	public static String A 		= "A";
+	protected static String B 	= "b";
+	protected String c		= "c";
 	
 	public void finalMethod() {
 		System.out.println();
